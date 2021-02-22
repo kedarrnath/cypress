@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.5900" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-02-22T11:35:21" tests="0" file="cypress\integration\specs\Login_Spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login into Orion" timestamp="2021-02-22T11:35:21" tests="2" time="11.5900" failures="1">
+    <testcase name="Login into Orion Successfull Login" time="11.5900" classname="Successfull Login">
+    </testcase>
+    <testcase name="Login into Orion Un-Successfull Login" time="0.0000" classname="Un-Successfull Login">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Username and password do not match1&apos; within the element: &lt;div.ui-messages-error.ng-star-inserted&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Username and password do not match1' within the element: <div.ui-messages-error.ng-star-inserted> but never did.
+    at Context.eval (https://isa.jx-orion4x-qa.infobelt.com/__cypress/tests?p=cypress\integration\specs\Login_Spec.js:159:34)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
